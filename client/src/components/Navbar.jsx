@@ -29,8 +29,8 @@ const Navbar = ({ setShowLogin }) => {
 
         <div className='flex max-sm:flex-col items-start sm:items-center gap-6 text-gray-800'>
           <button onClick={() => navigate('/owner')} className="cursor-pointer">Dashboard</button>
-          <button onClick={() => setShowLogin(true)} className="cursor-pointer px-8 py-2 bg-blue-500
-          hover:bg-primary-dull transition-all text-white rounded-lg">Login</button>
+          <button onClick={() => setShowLogin(true)} className="cursor-pointer px-8 py-2 bg-blue-600 hover:bg-blue-500
+           transition-colors duration-300 ease-in-out transition-all text-white rounded-lg">Login</button>
         </div>
 
       </div>
